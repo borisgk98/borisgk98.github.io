@@ -1,0 +1,241 @@
+@media print {
+    * {
+        font-size: 96% !important;
+    }
+
+    h1, h2 {
+        margin: 2px 0 2px 0 !important;
+        font-size: 95% !important;
+    }
+
+    .contacts h1 {
+        font-size: 100% !important;
+    }
+
+    span.badge {
+        display: none !important;
+    }
+
+    .avatar {
+        width: 150px !important;
+    }
+
+    .contacts {
+        width: calc(100% - 180px);
+    }
+
+    .avatar img {
+        border-radius: 20px !important;
+        box-shadow: 0 0 10px grey !important;
+    }
+
+    .content {
+        margin: 0 5px 0 5px !important;
+        padding: 0 !important;
+    }
+
+    table:not([class='info']) td:first-child {
+        width: 180px !important;
+    }
+
+    .print-only {
+        display: initial !important;
+    }
+
+    .web-only {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1150px) {
+    .content {
+        margin: 0px 10px 0px 10px;
+    }
+}
+
+.print-only {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 120%;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+a:hover {
+    text-shadow: 0 0 2px orange;
+}
+
+.name {
+    /*font-size: 24px;*/
+    font-size: 200% !important;
+    /*font-size: 1.5em;*/
+}
+
+.content {
+    margin: 0 15% 15px 15%;
+    padding: 10px;
+}
+
+.content.footer {
+    text-align: right;
+}
+
+.contacts {
+    width: calc(100% - 264px);
+}
+
+.avatar img {
+    width: inherit;
+    border-radius: 80px;
+    box-shadow: 0 0 10px orange;
+}
+
+.avatar {
+    width: 264px;
+}
+
+.info {
+    width: 100%;
+}
+
+h3 {
+    margin: 3px;
+}
+
+h2 {
+    margin: 3px;
+}
+
+table:not([class='info']) td:first-child {
+    width: 250px;
+    text-align: right;
+    color: dimgray;
+}
+
+table:not([class='info']) td {
+    padding-right: 10px;
+}
+
+table:not([class='info']) a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+}
+
+.info-table tr>td {
+    padding-bottom: 5px;
+    vertical-align: text-top;
+}
+
+.info-table p {
+    margin: 2px;
+}
+
+.info-table ul {
+    margin: 0;
+}
+
+.info-table p.project-name {
+    margin-top: 10px;
+}
+
+.info-table tr td:first-child {
+    vertical-align: text-top;
+}
+
+span.badge {
+    /*font-weight: bold;*/
+    color: white;
+    padding-right: .6em;
+    padding-left: .6em;
+    padding-top: .2em;
+    padding-bottom: .1em;
+    border-radius: 10rem;
+    text-shadow: 0 0 2px black;
+    margin: 1px;
+    display: inline-block;
+    background: dimgray;
+    border-radius: 15px;
+    font-family: 'PT Mono', monospace;
+}
+
+span.badge.docker {
+    background: deepskyblue;
+}
+span.badge.docker:after {
+    content: 'Docker';
+}
+
+span.badge.nodejs {
+    background: darkgreen;
+}
+span.badge.nodejs:after {
+    content: 'NodeJS';
+}
+
+span.badge.python {
+    background: gold;
+}
+span.badge.python:after {
+    content: 'Python';
+}
+
+span.badge.math {
+    background: darkblue;
+}
+span.badge.math:after {
+    content: 'Math';
+}
+
+span.badge.java {
+    background: #E00003;
+}
+span.badge.java:after {
+    content: 'Java';
+}
+
+span.badge.stylus {
+    background: #FF6347;
+}
+span.badge.stylus:after {
+    content: 'Stylus';
+}
+
+span.badge.ccharp {
+    background: #FF6347;
+}
+span.badge.ccharp:after {
+    content: 'C#';
+}
+
+span.badge.kubernetes {
+    background: #306adf;
+}
+span.badge.kubernetes:after {
+    content: 'K8S';
+}
