@@ -1,2 +1,2 @@
-# borisgk98.github.io
-borisgk98 CV
+# [borisgk98.github.io](https://borisgk98.github.io/)
+## Boris Kozhuhovskij`s CV
