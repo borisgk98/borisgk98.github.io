@@ -69,11 +69,7 @@ a:hover {
     width: 100%;
 }
 
-h3 {
-    margin: 3px;
-}
-
-h2 {
+h3, h2 {
     margin: 3px;
 }
 
@@ -102,7 +98,7 @@ table {
 }
 
 .info-table p {
-    margin: 2px;
+    margin: 0;
 }
 
 .info-table ul {
