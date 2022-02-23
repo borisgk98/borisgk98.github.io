@@ -43,6 +43,10 @@ a:hover {
     padding: 10px;
 }
 
+.content>p {
+    text-indent: 30px;
+}
+
 .content.footer {
     text-align: right;
 }
